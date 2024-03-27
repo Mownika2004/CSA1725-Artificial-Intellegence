@@ -1,0 +1,12 @@
+studies(divya,csc135).
+studies(koppu,csc135).
+studies(honey,csc131).
+studies(bunny,csc134).
+
+teaches(jack,csc135).
+teaches(peter,csc131).
+teaches(gimmi,csc171).
+teaches(browny,csc134).
+
+professor(X,Y) :-teaches(X,C),
+studies(Y,C).
